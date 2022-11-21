@@ -1,0 +1,18 @@
+Video "video/ffmpeg_test/looped_m4v_h264.m4v":
+	Total frames: 237
+	Total decode time: 565.285 ms
+	Actual playback time: 9840.400 ms
+	Min/avg/max decode time: 2.202/2.385/5.065 ms
+
+Video "video/ffmpeg_test/tennis_mp4_h264_aac.mp4":
+	Total frames: 2124
+	Total decode time: 2337.997 ms
+	Actual playback time: 42942.043 ms
+	Min/avg/max decode time: 1.000/1.101/2.564 ms
+
+Video "video/briefing_video.roq":
+	Total frames: 298
+	Total decode time: 426.236 ms
+	Actual playback time: 9909.540 ms
+	Min/avg/max decode time: 1.184/1.430/3.706 ms
+

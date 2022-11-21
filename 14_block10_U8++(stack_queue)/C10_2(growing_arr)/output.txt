@@ -1,0 +1,7 @@
+0 good
+1 a
+2 hello
+3 qwertyy
+3 string
+3 ab
+5 world

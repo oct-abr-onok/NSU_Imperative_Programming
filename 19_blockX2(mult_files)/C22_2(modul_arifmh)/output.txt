@@ -1,0 +1,91 @@
+#include "modular.h" //в этом хедере должны быть объявления
+#include <assert.h>
+#include <stdio.h>
+
+int main()
+{	MOD = 2687; //light test #1
+	assert(pnorm(-48477924) == 930);
+	assert(padd(2396, 1941) == 1650);
+	assert(psub(2396, 1941) == 455);
+	assert(pmul(2396, 1941) == 2126);
+	assert(pdiv(2396, 907) == 1792);
+
+	MOD = 1613; //light test #2
+	assert(pnorm(-20496190) == 201);
+	assert(padd(211, 183) == 394);
+	assert(psub(211, 183) == 28);
+	assert(pmul(211, 183) == 1514);
+	assert(pdiv(211, 615) == 1136);
+
+	MOD = 2647; //light test #3
+	assert(pnorm(-522204725) == 729);
+	assert(padd(1476, 653) == 2129);
+	assert(psub(1476, 653) == 823);
+	assert(pmul(1476, 653) == 320);
+	assert(pdiv(1476, 2629) == 2565);
+
+	MOD = 2383; //light test #4
+	assert(pnorm(-203860464) == 420);
+	assert(padd(974, 767) == 1741);
+	assert(psub(974, 767) == 207);
+	assert(pmul(974, 767) == 1179);
+	assert(pdiv(974, 1189) == 87);
+
+	MOD = 137; //light test #5
+	assert(pnorm(-453821165) == 103);
+	assert(padd(20, 93) == 113);
+	assert(psub(20, 93) == 64);
+	assert(pmul(20, 93) == 79);
+	assert(pdiv(20, 121) == 33);
+
+	MOD = 463; //light test #6
+	assert(pnorm(60734568) == 80);
+	assert(padd(410, 446) == 393);
+	assert(psub(410, 446) == 427);
+	assert(pmul(410, 446) == 438);
+	assert(pdiv(410, 303) == 200);
+
+	MOD = 809; //light test #7
+	assert(pnorm(-2956278) == 617);
+	assert(padd(491, 448) == 130);
+	assert(psub(491, 448) == 43);
+	assert(pmul(491, 448) == 729);
+	assert(pdiv(491, 365) == 602);
+
+	MOD = 1489; //light test #8
+	assert(pnorm(-297482465) == 378);
+	assert(padd(1194, 791) == 496);
+	assert(psub(1194, 791) == 403);
+	assert(pmul(1194, 791) == 428);
+	assert(pdiv(1194, 17) == 333);
+
+	MOD = 2801; //light test #9
+	assert(pnorm(-21542912) == 2380);
+	assert(padd(634, 249) == 883);
+	assert(psub(634, 249) == 385);
+	assert(pmul(634, 249) == 1010);
+	assert(pdiv(634, 2418) == 1951);
+
+	MOD = 1171; //light test #10
+	assert(pnorm(234835552) == 870);
+	assert(padd(778, 154) == 932);
+	assert(psub(778, 154) == 624);
+	assert(pmul(778, 154) == 370);
+	assert(pdiv(778, 331) == 1000);
+
+	MOD = 520590181; //hard test #1
+	assert(pnorm(25348090) == 25348090);
+	assert(padd(195462200, 48561138) == 244023338);
+	assert(psub(195462200, 48561138) == 146901062);
+	assert(pmul(195462200, 48561138) == 239189424);
+	assert(pdiv(195462200, 484451605) == 345958276);
+
+	MOD = 540537401; //hard test #2
+	assert(pnorm(118677156) == 118677156);
+	assert(padd(12850052, 363084625) == 375934677);
+	assert(psub(12850052, 363084625) == 190302828);
+	assert(pmul(12850052, 363084625) == 167395386);
+	assert(pdiv(12850052, 260924806) == 155157591);
+
+	return 0;
+}

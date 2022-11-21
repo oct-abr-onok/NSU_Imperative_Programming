@@ -1,0 +1,1 @@
+cl -O2 main.c matrixsqr.c libopenblas.lib -Fechecked_solution.exe
